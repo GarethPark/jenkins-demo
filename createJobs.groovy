@@ -6,12 +6,12 @@ pipelineJob('pipelineJob') {
         }
     }
 }
-pipelineJob('theme-park-job'){
-    definition{
-        cpsSCM{
-            scm{
-                git{
-                    remote{
+pipelineJob('theme-park-job') {
+    definition {
+        cpsScm {
+            scm {
+                git {
+                    remote {
                         url 'https://github.com/GarethPark/spring-boot-api-example'
                     }
                     branch'master'
